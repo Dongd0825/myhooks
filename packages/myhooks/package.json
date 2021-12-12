@@ -24,6 +24,9 @@
     }
   },
   "lint-staged": {
-    "src/**/**/*.{ts,tsx}": []
+    "src/**/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
