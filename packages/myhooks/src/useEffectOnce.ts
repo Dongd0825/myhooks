@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+import {useEffect} from 'react';
 
 const useEffectOnce = (fn) => {
-  useEffect(() => {
+  useEffect(
+    () => {
 
 
-    
+
     fn()
   }, [])
 }
