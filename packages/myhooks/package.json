@@ -20,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prepare"
+      "pre-commit": "yarn run prepare"
     }
   },
   "lint-staged": {
