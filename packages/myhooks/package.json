@@ -1,7 +1,7 @@
 {
   "name": "myhooks",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
     "@types/react": "^17.0.37",
@@ -34,5 +34,6 @@
     "src/*.{ts,tsx}": [
       "eslint --fix"
     ]
-  }
+  },
+  "gitHead": "6f63c2e1ca75932ca36693315df40e0ec1b2972f"
 }
