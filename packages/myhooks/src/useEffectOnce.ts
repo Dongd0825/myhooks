@@ -1,13 +1,13 @@
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
-const useEffectOnce = (fn) => {
+type Ifn = () => void;
+
+const useEffectOnce = (fn: Ifn) => {
   useEffect(
     () => {
-
-
-
-    fn()
+    console.log('ssssssssss');
+    fn();
   }, [])
-}
+};
 
 export default useEffectOnce;
