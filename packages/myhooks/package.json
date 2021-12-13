@@ -1,5 +1,5 @@
 {
-  "name": "myhooks",
+  "name": "myhooks-dd",
   "version": "0.0.2",
   "main": "lib/index.js",
   "license": "MIT",
@@ -35,5 +35,5 @@
       "eslint --fix"
     ]
   },
-  "gitHead": "6f63c2e1ca75932ca36693315df40e0ec1b2972f"
+  "gitHead": "4867fac12579fa9c95da863f03089ebe5ade9205"
 }
