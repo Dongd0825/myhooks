@@ -6,8 +6,6 @@ const useEffectOnce = (fn: Ifn) => {
   useEffect(
     () => {
     console.log('');
-    console.log('');
-    console.log('');
     fn();
   }, [])
 };
